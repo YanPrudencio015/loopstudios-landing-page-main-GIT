@@ -1,0 +1,223 @@
+/* 
+font-family: "Alata", sans-serif;
+400
+font-family: "Josefin Sans", sans-serif;
+300
+
+
+*/
+
+
+.footer{
+    width: 100%;
+    height: 10vw;
+    background-color: hsl(0, 0%, 0%);
+    display: grid;
+    grid-template-areas:    "A1 A3"
+                            "A2 A4";
+    color: hsl(0, 0%, 100%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10%;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+.footerTitle{
+    grid-area: A1;
+    text-transform: lowercase;
+}
+
+.list{
+    grid-area: A2;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10%;
+    width: 28vw;
+    font-size: 1vw;
+    
+    font-family: "Alata", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.list li{
+    border-bottom: solid 1px transparent;
+
+    padding: 2% 0;
+    cursor: pointer;
+}
+
+.list li:hover{
+    border-bottom: solid 1px;
+    transition: 600ms;
+}
+
+.socialMedia{
+    grid-area: A3;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    gap: 8%;
+    background-color: hsl(0, 0%, 0%);
+}
+
+
+.socialMediaIcon{
+    background-color: hsl(0, 0%, 0%);
+    border-bottom: solid 1px hsl(0, 0%, 0%);
+    padding: 2%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.socialMediaIcon:hover{
+    background-color: transparent;
+    border-bottom: solid 1px hsl(0, 0%, 100%);
+    transition: 600ms;
+}
+
+
+
+h3{
+    font-size: 1vw;
+    grid-area: A4;
+    color: hsl(0, 0%, 55%);
+
+}
+
+/* 
+font-family: "Alata", sans-serif;
+400
+font-family: "Josefin Sans", sans-serif;
+300
+
+
+*/
+
+
+@media screen and ( max-width: 899px) and (min-width:501px){   
+    
+    
+    .footer {
+        width: 100%;
+        height: 18vw;
+        background-color: hsl(0, 0%, 0%);
+        display: grid;
+        grid-template-areas:
+            "A1 A3"
+            "A2 A4";
+        color: hsl(0, 0%, 100%);
+        align-items: center;
+        justify-content: space-between;
+        padding: 0% 10%;
+        gap: 5%;
+        margin-top: 5%;
+    }
+
+
+
+
+    .list {
+        grid-area: A2;
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 10%;
+        width: 28vw;
+        font-size: 1.9vw;
+        font-family: "Alata", sans-serif;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+
+    h3 {
+        font-size: 1.4vw;
+        grid-area: A4;
+        color: hsl(0, 0%, 55%);
+    }
+}
+
+/* 
+font-family: "Alata", sans-serif;
+400
+font-family: "Josefin Sans", sans-serif;
+300
+
+
+*/
+@media screen and ( max-width: 500px) and (min-width:340px){    
+
+
+    .footer{
+        width: 100%;
+        height: 136vw;
+        background-color: hsl(0, 0%, 0%);
+        display: grid;
+        grid-template-areas:
+            "A1"
+            "A2"
+            "A3"
+            "A4";
+        color: hsl(0, 0%, 100%);
+        align-items: center;
+        justify-content: center;
+        padding: 0% 0%;
+        gap: 0%;
+        margin-top: 15%;
+    }
+
+    .footerTitle {
+        grid-area: A1;
+        text-transform: lowercase;
+        font-size: 8vw;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .list {
+        grid-area: A2;
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 9%;
+        width: 100%;
+        height: 70vw;
+        font-size: 5vw;
+        font-family: "Alata", sans-serif;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .socialMedia {
+        grid-area: A3;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 13%;
+    }
+
+    h3 {
+        font-size: 4vw;
+        grid-area: A4;
+        color: hsl(0, 0%, 55%);
+    }
+    
+}
+
+/* 
+font-family: "Alata", sans-serif;
+400
+font-family: "Josefin Sans", sans-serif;
+300
+
+
+*/
